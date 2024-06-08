@@ -13,4 +13,8 @@ func main() {
 	JSON_Handling.Marshall()
 	JSON_Handling.Unmarshall()
 	Rest_API.Start()
+	Data_Structures.ImplementStack()
+	Data_Structures.ImplementQueue()
+	Data_Structures.ImplementDoubleLinkedList()
+	Data_Structures.ImplementSingleLinkedList()
 }
