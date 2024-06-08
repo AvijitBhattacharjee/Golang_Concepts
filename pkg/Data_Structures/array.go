@@ -1,6 +1,6 @@
 // Copyright (c) avijit bhattacharjee 2024
 
-package DSA // Add package name
+package Data_Structures
 
 import "fmt"
 
