@@ -21,6 +21,8 @@ func ImplementChannel() {
 	go receive(ch)
 	time.Sleep(time.Second * 1)
 	fmt.Println("this is the capacity = ", cap(ch))
+	defer close(ch)
+	fmt.Println("Channel closed")
 }
 
 func send(ch chan int, val int) {

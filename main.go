@@ -21,4 +21,5 @@ func main() {
 
 	Goroutine.ImplementChannel() 
 	Goroutine.ImplementInterface()
+	Goroutine.ImplementConcurrency()
 }
