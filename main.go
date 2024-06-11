@@ -6,6 +6,7 @@ import (
 	"github.com/avijit/pkg/Data_Structures"
 	"github.com/avijit/pkg/JSON_Handling" 
 	"github.com/avijit/pkg/Rest_API" 
+	"github.com/avijit/pkg/Goroutine"
 )
 
 func main() {
@@ -17,4 +18,7 @@ func main() {
 	Data_Structures.ImplementQueue()
 	Data_Structures.ImplementDoubleLinkedList()
 	Data_Structures.ImplementSingleLinkedList()
+
+	Goroutine.ImplementChannel() 
+	Goroutine.ImplementInterface()
 }
