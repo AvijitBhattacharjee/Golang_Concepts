@@ -22,4 +22,8 @@ func main() {
 	Goroutine.ImplementChannel() 
 	Goroutine.ImplementInterface()
 	Goroutine.ImplementConcurrency()
+
+	Goroutine.ArraySum()
+	Goroutine.ProducerConsumer()
+	Goroutine.SyncProducerConsumer()
 }
